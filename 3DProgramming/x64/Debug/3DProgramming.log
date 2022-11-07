@@ -10,6 +10,6 @@ A:\WorkSpace\3DProgramming\3Dprogram\3DProgramming\3DProgramming.cpp(110,68): wa
           [
               T=float
           ]
-A:\WorkSpace\3DProgramming\3Dprogram\3DProgramming\3DProgramming.cpp(194,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-A:\WorkSpace\3DProgramming\3Dprogram\3DProgramming\3DProgramming.cpp(244,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+A:\WorkSpace\3DProgramming\3Dprogram\3DProgramming\3DProgramming.cpp(196,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+A:\WorkSpace\3DProgramming\3Dprogram\3DProgramming\3DProgramming.cpp(246,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   3DProgramming.vcxproj -> A:\WorkSpace\3DProgramming\3Dprogram\x64\Debug\Lecture03.exe

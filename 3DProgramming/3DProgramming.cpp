@@ -186,12 +186,14 @@ void Update()
         cout << translateX;
 
         /*스케일*/
-        transform.scale = glm::mat3(
+        /*transform.scale = glm::mat3(
             scale, 0, 0,
             0, scale, 0,
             0, 0, 1
-        );
-        scale = scale + (0.01 * scaleDir / 60); //60프레임 기준으로 프로그램이 돌아가기 때문에
+        );*/
+        transform.scale[0][0] = scale;
+        transform.scale[1][1] = scale;
+        scale = scale + (0.01 * scaleDir / 1); //60프레임 기준으로 프로그램이 돌아가기 때문에
         if (scale >= 1.3 || scale <= 0.7) { scaleDir = scaleDir * -1.0f; }
 
         for (int i = 0; i < 360; i++)
